@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+body, html {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: 0;
+		padding: 0;
+	}
+	#background {
+		position: fixed;
+		top: 0;
+		left: 0;
+
+		z-index: -100;
+	}
+
+.mainBody {
+	width: 30%;
+	height: 500px;
+	margin-left: 25%;
+	margin-top: 30px;
+	align-content: center;
+	filter: alpha(Opacity = 80);
+}
+
+.Login {
+	width: 30%;
+	height: 450px;
+	background-color: #87CEFA;
+	position: absolute;
+	border-radius: 5px;
+	filter: alpha(Opacity = 80);
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 20px;
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	padding-top: 20px;
+}
+
+.Register {
+	width: 30%;
+	height: 600px;
+	background-color: #87CEFA;
+	position: absolute;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 20px;
+	border-radius: 5px;
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	padding-top: 20px;
+}
+
+.InterfaceBody {
+	width: 150px;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: 165px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.QQLogin {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: red;
+	border-radius: 50%;
+	float: left;
+}
+
+.WeChatLogin {
+	width: 40px;
+	height: 40px;
+	margin-left: 10px;
+	border-radius: 50%;
+	background-color: green;
+	float: left;
+}
+
+#Login_Button {
+	width: 50%;
+	margin-left: 20%;
+}
+
+#register_Button{
+	width: 50%;
+	margin-left: 20%;
+}
+
+body, html {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#background {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -100;
+}

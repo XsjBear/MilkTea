@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+	<context id="context1">
+		<jdbcConnection connectionURL="jdbc:mysql://localhost:3306/milk_tea"
+			driverClass="com.mysql.jdbc.Driver" password="root" userId="root" />
+		<!-- 实体类 -->
+		<javaModelGenerator targetPackage="com.xiong.entity"
+			targetProject="CloudStorage/src" />
+		<sqlMapGenerator targetPackage="com.xiong.mapper"
+			targetProject="CloudStorage/src" />
+		<javaClientGenerator targetPackage="com.xiong.dao"
+			targetProject="CloudStorage/src" type="XMLMAPPER" />
+		
+		<table schema="milk_tea" tableName="user">
+		</table>
+		
+		<table schema="milk_tea" tableName="milk_tea_info">
+		</table>
+		
+		<table schema="milk_tea" tableName="evaluate">
+		</table>
+		
+		<table schema="milk_tea" tableName="adress">
+		</table>
+		
+		<table schema="milk_tea" tableName="buy_car">
+		</table>
+		
+		<table schema="milk_tea" tableName="order_">
+		</table>
+		
+		<table schema="milk_tea" tableName="order_commodity">
+		</table>
+		
+		<table schema="milk_tea" tableName="discounts">
+		</table>
+		
+		<table schema="milk_tea" tableName="who_have_discounts">
+		</table>
+		
+	</context>
+</generatorConfiguration>

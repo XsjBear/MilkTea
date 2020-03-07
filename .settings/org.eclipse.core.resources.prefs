@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/main/java=utf8
+encoding//src/main/java/com/xiong/controller/Adress_Controller.java=UTF-8
+encoding//src/main/java/com/xiong/controller/BuyCarController.java=UTF-8
+encoding//src/main/java/com/xiong/controller/LoginController.java=UTF-8
+encoding//src/main/java/com/xiong/controller/commodity.java=UTF-8
+encoding//src/main/java/com/xiong/controller/orderController.java=UTF-8
+encoding//src/main/java/com/xiong/dao/AdressMapper.java=UTF-8
+encoding//src/main/java/com/xiong/dao/BuyCarMapper.java=UTF-8
+encoding//src/main/java/com/xiong/resultentity=UTF-8
+encoding//src/main/java/com/xiong/resultentity/Result.java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/resources/CloudStorage.properties=UTF-8
+encoding//src/test/java=utf8
+encoding/<project>=UTF-8
